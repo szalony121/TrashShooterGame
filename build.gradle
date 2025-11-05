@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'com.trashshooter'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Dodaj zależności jeśli potrzebujesz np. JInput, JSON
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+        resources {
+            srcDirs = ['assets']
+        }
+    }
+}
